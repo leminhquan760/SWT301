@@ -1,0 +1,146 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 29, 2024, 9:30:18 PM
+    Author     : Admin
+*/
+
+.navbar-brand, .login-reg-form-h3{
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: bold;
+}
+
+.login-reg-form{
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin: 80px auto;
+    padding: 10px 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.notes-table{
+    border-radius: 10px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.notes-table-header{
+    background-color: #FFD52E;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: bold;
+}
+
+.notes-table tr:not(.notes-table-header){
+    background-color: #F9F9F9
+}
+
+.notes-table tr:not(.notes-table-header):hover{
+    background-color: #E5E5E5;
+}
+
+.notes-table th, tr, td{
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
+
+.account-tab{
+    position: absolute;
+    left: 1000px;
+}
+
+.account-name{
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.option-2{
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.login-reg-btn{
+    padding: 5px 100px;
+}
+
+html{
+    height: 100%;
+}
+
+.body-background{
+    background: #FFD52F;
+    background: linear-gradient(135deg, #FFD52F, #FE5858);
+}
+
+.btn-green{
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    cursor: pointer;
+    background-color: #00b74f;
+    font-weight: bold;
+}
+
+.add-note-fields{
+    padding-bottom: 10px;
+}
+
+.upd-button{
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px 8px 4px 8px;
+    cursor: pointer;
+    background-color: #00b74f;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.del-button{
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px 8px 4px 8px;
+    cursor: pointer;
+    background-color: #f44336;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.member-list{
+    border-radius: 10px;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.member-list-header{
+    background-color: #000000;
+    color: white;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: bold;
+}
+
+.member-list tr:not(.member-list-header){
+    background-color: #F9F9F9
+}
+
+.member-list tr:not(.member-list-header):hover{
+    background-color: #E5E5E5;
+}
+
+.member-list th, tr, td{
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
+
+.member-list-h2{
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: bold;
+}
